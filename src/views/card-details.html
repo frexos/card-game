@@ -1,0 +1,31 @@
+<div class="thecard">
+    <h2 class="thecard__title">{{$ctrl.selected.name}}</h2>
+    <div class="thecard__info">
+        <img class="thecard__image" ng-src="http://52.57.88.137/api/card_image/{{$ctrl.selected.name}}">
+        <h3>Description</h3>
+        <p class="thecard__description">{{$ctrl.selected.description}}</p>
+        <h3>Details</h3>
+        <p>
+            <span class="thecard__details">Card Type: </span><span class="thecard__value">{{$ctrl.selected.card_type}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Type: </span><span class="thecard__value">{{$ctrl.selected.type}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Family: </span><span class="thecard__value">{{$ctrl.selected.family}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Atk: </span><span class="thecard__value">{{$ctrl.selected.atk}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Def: </span><span class="thecard__value">{{$ctrl.selected.def}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Level: </span><span class="thecard__value">{{$ctrl.selected.level}}</span>
+        </p>
+        <p>
+            <span class="thecard__details">Property: </span><span class="thecard__value">{{$ctrl.selected.property}}</span>
+        </p>
+    </div>
+    <div class="clearfix"></div>
+</div>

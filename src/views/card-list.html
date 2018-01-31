@@ -1,0 +1,7 @@
+<ul class="sidebar__list">
+    <li class="link" ng-class="{'is-active': $ctrl.activeIndex === $index}" ng-repeat="card in $ctrl.cards" ng-click="$ctrl.cardClicked($index)">
+        <p class="link__name">{{card.name}}</p>
+        <span class="link__type">{{card.card_type}}</span>
+        <div class="clearfix"></div>
+    </li>
+</ul>

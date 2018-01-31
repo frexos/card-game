@@ -1,0 +1,23 @@
+html, body{
+  height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  color: grey;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+main, .app, .app__container, .app__row {
+  height: 100%;
+}
+
+body {
+  background-image: url(../img/deck_bg.jpg);
+}
+
+main {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+
+
