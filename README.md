@@ -1,4 +1,4 @@
-Encode Assignment: card deck
+Encode Assignment: card-game
 
 This is a repository containing the code for the Encode assignment, build with AngularJS and Webpack
 
@@ -11,8 +11,8 @@ What you need to run this app:
 # clone the repo
 $ git clone https://github.com/frexos/card-game.git
 
-# change directory card-deck/
-$ cd card-deck
+# change directory card-game/
+$ cd card-game
 
 
 # install the dependencies with npm
