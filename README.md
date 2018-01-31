@@ -9,7 +9,7 @@ What you need to run this app:
 * Ensure you're running Node (`v4.1.x`+) and NPM (`2.14.x`+)
 
 # clone the repo
-$ git clone https://github.com/frexos/card-deck.git
+$ git clone https://github.com/frexos/card-game.git
 
 # change directory card-deck/
 $ cd card-deck
